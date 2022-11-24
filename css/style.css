@@ -1,0 +1,41 @@
+@charset "UTF- 8";
+body {
+    padding: 20px;
+}
+h1{
+    color: #3124e9;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    animation: float 4s ease-in-out infinite;
+}
+@keyframes float{
+0%{
+    transform: translateY(0);
+}
+50%{
+    transform: translateY(15px);
+}
+100%{
+    transform: translateY(0);
+}
+}
+
+main{
+    padding: 1px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 0px 5px black;
+    min-width: 270px;
+    max-width: 400px;
+    min-height: 200px;
+    height: 370px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+
+div#msg{
+    font-size: 19pt;
+    font-family: 'Courier New', Courier, monospace;
+}
